@@ -1,5 +1,22 @@
 var identificacion,nombres,ape,correo,usuario,contraseña,contraseñaVal;
 
+document.getElementById('cont').addEventListener('mouseover', function() {
+    document.getElementById('parrafo2').style.display = 'block';
+});
+
+document.getElementById('cont').addEventListener('mouseout', function() {
+    document.getElementById('parrafo2').style.display = 'none';
+});
+
+document.getElementById('cont').addEventListener('mouseover', function() {
+    document.getElementById('parrafo').style.display = 'block';
+});
+
+document.getElementById('cont').addEventListener('mouseout', function() {
+    document.getElementById('parrafo').style.display = 'none';
+});
+
+
 function registro ()
 {
  identificacion = document.getElementById('ide').value;
